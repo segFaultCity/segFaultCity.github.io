@@ -37,12 +37,22 @@
             .point{
                 font-size: 50px;
                 color: teal;
+            }
+            
+            #container{
+                position: relative;
+                overflow: hidden;
+                width: 100%;
+                height: 100%;
+                padding: 30px;
                 left: 0;
                 right: 0;
                 margin-left: auto;
                 margin-right: auto;
-                margin-top: 20px;
+                margin-top: 40px;
                 text-align: center;
+                align-content: center;
+                border: 2px solid grey;
             }
            
         </style>
@@ -56,9 +66,14 @@
             <p>Welcome to my GitHub.io Page!</p>
         </section>
         
-        <div class="point">RESUME:</div>
+        <div id="container">
         
-        <img class="center" src="images/resume.jpg" >
+            <p class="point">RESUME:</p>
+        
+            <img class="center" src="images/resume.jpg" >
+        
+        </div>
+        
         
         
     </body>
